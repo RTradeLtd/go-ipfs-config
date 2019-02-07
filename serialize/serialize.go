@@ -11,7 +11,7 @@ import (
 	"github.com/ipfs/go-ipfs-config"
 
 	"github.com/facebookgo/atomicfile"
-	"github.com/ipfs/go-ipfs-util"
+	"_/home/idk/local-manifest/crypto-manifest/i2p-manifest/go-ipfs-config-fork/go/src/github.com/rtradeltd/go-ipfs-config/gxlibs/github.com/ipfs/go-ipfs-util"
 )
 
 // ReadConfigFile reads the config from `filename` into `cfg`.

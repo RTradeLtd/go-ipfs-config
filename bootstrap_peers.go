@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	iaddr "github.com/ipfs/go-ipfs-addr"
+	iaddr "_/home/idk/local-manifest/crypto-manifest/i2p-manifest/go-ipfs-config-fork/go/src/github.com/rtradeltd/go-ipfs-config/gxlibs/github.com/ipfs/go-ipfs-addr"
 	// Needs to be imported so that users can import this package directly
 	// and still parse the bootstrap addresses.
-	_ "github.com/multiformats/go-multiaddr-dns"
+	_ "_/home/idk/local-manifest/crypto-manifest/i2p-manifest/go-ipfs-config-fork/go/src/github.com/rtradeltd/go-ipfs-config/gxlibs/github.com/multiformats/go-multiaddr-dns"
 )
 
 // DefaultBootstrapAddresses are the hardcoded bootstrap addresses
