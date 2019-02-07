@@ -7,8 +7,8 @@ import (
 	"io"
 	"time"
 
-	ci "_/home/idk/local-manifest/crypto-manifest/i2p-manifest/go-ipfs-config-fork/go/src/github.com/rtradeltd/go-ipfs-config/gxlibs/github.com/libp2p/go-libp2p-crypto"
-	peer "_/home/idk/local-manifest/crypto-manifest/i2p-manifest/go-ipfs-config-fork/go/src/github.com/rtradeltd/go-ipfs-config/gxlibs/github.com/libp2p/go-libp2p-peer"
+	ci "github.com/rtradeltd/go-ipfs-config/gxlibs/github.com/libp2p/go-libp2p-crypto"
+	peer "github.com/rtradeltd/go-ipfs-config/gxlibs/github.com/libp2p/go-libp2p-peer"
 )
 
 func Init(out io.Writer, nBitsForKeypair int) (*Config, error) {

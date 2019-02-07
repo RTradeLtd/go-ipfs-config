@@ -3,7 +3,7 @@ package config
 import (
 	"encoding/base64"
 
-	ic "_/home/idk/local-manifest/crypto-manifest/i2p-manifest/go-ipfs-config-fork/go/src/github.com/rtradeltd/go-ipfs-config/gxlibs/github.com/libp2p/go-libp2p-crypto"
+	ic "github.com/rtradeltd/go-ipfs-config/gxlibs/github.com/libp2p/go-libp2p-crypto"
 )
 
 const IdentityTag = "Identity"
